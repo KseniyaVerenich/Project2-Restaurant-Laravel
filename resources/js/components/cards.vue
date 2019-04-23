@@ -15,7 +15,7 @@
             <div class="card-block"></div>
 
             <div class="card-block">
-              <p class="card-text" v-for="item in menu_array" :key="item.description">{{item.description}}</p>
+              <p class="card-text"  v-for="item in menu_array" :key="item.description">{{item.description}}</p>
            
            
             </div>
@@ -133,4 +133,11 @@ export default {
 .back {
   transform: rotateY(180deg);
 }
+
+#text {
+  font-family: 'Quicksand', sans-serif;
+  
+
+}
+
 </style>
